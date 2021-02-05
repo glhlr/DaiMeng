@@ -1,0 +1,117 @@
+- attribute|属性  [abstract|抽象]
+  ├ appearance|外观
+  │ ├ form|形状
+  │ ├ brightness|明暗
+  │ ├ clearness|清浑
+  │ ├ prettiness|美丑
+  │ ├ pattern|样式
+  │ ├ SmoothFinish|光洁度
+  │ ├ color|颜色
+  │ ├ hue|浓淡
+  │ ├ odor|气味
+  │ ├ taste|味道
+  │ ├ posture|姿势
+  │ ├ scene|景象
+  │ ├ cleanness|洁净
+  │ ├ fatness|胖瘦
+  │ ├ bearing|仪态
+  │ ├ PhysicState|物理状态
+  │ ├ attire|装束
+  │ ├ style|风格
+  │ ├ demeanor|风度
+  │ └ countenance|表情
+  ├ measurement|量度
+  │ ├ length|长度
+  │ ├ width|宽度
+  │ ├ height|高度
+  │ ├ depth|深度
+  │ ├ thickness|厚度
+  │ ├ size|尺寸
+  │ ├ fineness|粗细
+  │ ├ weight|重量
+  │ ├ area|面积
+  │ ├ slope|坡度
+  │ ├ density|密度
+  │ ├ tightness|松紧
+  │ ├ hardness|硬度
+  │ ├ concentration|浓度
+  │ ├ distance|距离
+  │ ├ earliness|迟早
+  │ ├ speed|速度
+  │ ├ duration|久暂
+  │ ├ dampness|湿度
+  │ ├ temperature|温度
+  │ ├ price|价格
+  │ ├ stickiness|黏度
+  │ ├ volume|容积
+  │ ├ bulk|体积
+  │ ├ PhysicsPower|功率
+  │ ├ ChargeQuantity|电量
+  │ ├ voltage|电压
+  │ ├ resistance|电阻
+  │ ├ frequency|频率
+  │ ├ heat|热量
+  │ └ SoundVolume|音量
+  ├ property|特性
+  │ ├ newness|新旧
+  │ ├ age|年龄
+  │ ├ trueness|真伪
+  │ ├ GoodBad|好坏
+  │ ├ quality|质量
+  │ ├ intensity|强度
+  │ ├ easiness|难易
+  │ ├ SoundQuality|音质
+  │ ├ content|内容
+  │ ├ correctness|正误
+  │ ├ degree|程度
+  │ ├ reputation|名声
+  │ ├ behavior|举止
+  │ ├ value|价值
+  │ ├ impression|印象
+  │ ├ effect|效用
+  │ ├ will|意志
+  │ ├ courage|胆量
+  │ ├ wisdom|智慧
+  │ ├ ability|能力
+  │ ├ tolerance|气量
+  │ ├ importance|主次
+  │ ├ necessity|必要
+  │ ├ rank|等级
+  │ ├ status|身分
+  │ ├ standard|标准
+  │ ├ occupation|职位
+  │ ├ range|幅度
+  │ ├ power|势力
+  │ ├ strength|力量
+  │ ├ ProsCons|利弊
+  │ ├ relatedness|亲疏
+  │ ├ sex|性别
+  │ ├ origin|出身
+  │ ├ name|姓名
+  │ ├ number|编号
+  │ ├ performance|性能
+  │ ├ interest|趣味
+  │ ├ outlook|前景
+  │ ├ SocialMode|风气
+  │ └ habit|习惯
+  ├ relationship|关系
+  │ ├ attachment|归属
+  │ ├ kind|类型
+  │ ├ source|来源
+  │ ├ location|位置
+  │ ├ direction|方向
+  │ ├ clan|辈分
+  │ ├ divergence|分歧
+  │ ├ boundary|界限
+  │ ├ sequence|次序
+  │ └ contrariness|正反
+  └ situation|状况
+     ├ circumstances|境况
+     ├ richness|贫富
+     ├ similarity|异同
+     ├ occasion|场面
+     ├ physique|体格
+     ├ wholeness|整缺
+     ├ fullness|空满
+     ├ possibility|可能
+     └ environment|情况

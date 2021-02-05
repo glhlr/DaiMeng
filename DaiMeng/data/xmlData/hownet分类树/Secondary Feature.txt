@@ -1,0 +1,100 @@
+- Secondary Feature
+  ├ ProperName|专
+  ├ mass|众
+  ├ official|官       [#organization|组织,#employee|员]
+  ├ employee|员       [$employ|雇用]
+  ├ industrial|工     [#produce|制造,#repair|修理]
+  ├ mine|矿           [#dig|挖掘,#produce|制造,industrial|工]
+  ├ factory|厂        [#organization|组织,#employee|员,+produce|制造,+repair|修理,industrial|工]
+  ├ agricultural|农   [#plant|植物,#planting|栽植]
+  ├ commercial|商     [#money|货币,#buy|买,#sell|卖]
+  ├ education|教育    [#teach|教,#study|学]
+  ├ medical|医        [#cure|医治,#disease|疾病]
+  ├ literature|文     [#compile|编辑,#translate|翻译]
+  ├ entertainment|艺  [#perform|表演,#draw|画,#carve|雕刻,#TakePicture|拍摄]
+  ├ sport|体育        [#exercise|锻练,~#SportTool|运动器材,~#compete|比赛]
+  ├ religion|宗教
+  ├ politics|政       [~#manage|管理,~#country|国家]
+  ├ diplomatic|外交   [#politics|政]
+  ├ police|警         [#crime|罪]
+  ├ military|军       [~#attack|攻打,#fight|争斗,#defend|防守]
+  ├ royal|皇
+  ├ family|家         [+alive|活着,~$ProvideFor|供养]
+  ├ friend|友         [~$FondOf|喜欢,~$loyal|忠孝]
+  ├ enemy|敌          [~$hate|仇恨]
+  ├ crime|罪          [#police|警]
+  ├ waste|废
+  ├ poison|毒
+  ├ desired|良
+  ├ undesired|莠
+  ├ abstract|抽象
+  ├ generic|统称
+  ├ question|疑问
+  ├ country|国家      [place|地方,#human|人,#politics|政]
+  ├ capital|国都      [#country|国家,#organization|组织]
+  ├ provincial|省
+  ├ city|市
+  ├ village|乡        [#agricultural|农]
+  ├ route|路          [space|空间,linear|线]
+  ├ surname|姓        [character|文字]
+  ├ firstPerson|我
+  ├ SecondPerson|你
+  ├ ThirdPerson|他
+  ├ it|它
+  ├ self|己
+  ├ EachOther|相互
+  ├ head|头
+  ├ heart|心
+  ├ body|身
+  ├ bone|骨
+  ├ base|根
+  ├ limb|肢           [*crawl|爬,*swim|游]
+  ├ arm|臂            [*HoldInArm|搂抱]
+  ├ hand|手           [*pick|拾起,*HoldWithHand|搀扶,*crawl|爬,*catch|捉住]
+  ├ leg|腿            [*walk|走,*run|跑,*jump|跳,*swim|游,*kick|踢踩,*stand|站立]
+  ├ foot|脚           [*walk|走,*run|跑,*jump|跳,*crawl|爬,*swim|游,*kick|踢踩,*stand|站立]
+  ├ wing|翅           [*fly|飞]
+  ├ edge|边           [linear|线]
+  ├ mouth|口          [*HoldInMouth|衔起,+consume|摄取,+GoInto|进入,+GoOut|出去,+GoThrough|经过]
+  ├ eye|眼            [*look|看]
+  ├ viscera|脏
+  ├ nerve|络
+  ├ tail|尾
+  ├ embryo|胚         [$GiveBirth|生育]
+  ├ skin|皮
+  ├ flesh|肉          [$consume|摄取]
+  ├ hair|毛
+  ├ aspect|侧         [abstract|抽象]
+  ├ upper|上
+  ├ beneath|下
+  ├ InFront|前
+  ├ hind|后
+  ├ surrounding|周围
+  ├ festival|节
+  ├ year|年
+  ├ season|季
+  ├ spring|春         [season|季,warm|温,~beautiful|美,#weather|天象,#planting|栽植]
+  ├ summer|夏         [season|季,hot|热,#weather|天象,#RainSnow|雨雪]
+  ├ autumn|秋         [season|季,chilly|凉,~beautiful|美,#weather|天象,gather|采集,#crop|庄稼]
+  ├ winter|冬         [season|季,cold|冷,#weather|天象,#RainSnow|雨雪]
+  ├ month|月
+  ├ TenDays|旬
+  ├ week|周
+  ├ day|日
+  ├ hour|时
+  ├ minute|分钟
+  ├ morning|晨
+  ├ afternoon|午
+  ├ night|晚
+  ├ middle|间
+  ├ ending|末
+  ├ now|今
+  ├ past|昔
+  ├ future|将
+  ├ immediate|即
+  ├ finally|终
+  ├ already|已
+  ├ also|也
+  ├ ordinal|第
+  ├ cardinal|基
+  └ approximate|概

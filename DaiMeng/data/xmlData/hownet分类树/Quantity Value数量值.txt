@@ -1,0 +1,13 @@
+- qValue|数量值
+  ├ amount|多少
+  │ ├ many|多
+  │ ├ few|少
+  │ ├ single|单
+  │ ├ double|复
+  │ ├ fragment|部
+  │ ├ some|些
+  │ ├ sufficient|足
+  │ ├ half|半
+  │ ├ only|仅
+  │ └ over|超
+  └ rate|比率

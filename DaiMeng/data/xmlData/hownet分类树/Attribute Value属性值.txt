@@ -1,0 +1,433 @@
+- aValue|属性值
+  ├ appearance|外观
+  │ ├ form|形状
+  │ │ ├ flat|扁
+  │ │ ├ straight|直
+  │ │ ├ curved|弯
+  │ │ ├ level|平
+  │ │ ├ upright|正
+  │ │ ├ slanted|歪
+  │ │ ├ even|匀
+  │ │ ├ dissimilar|差
+  │ │ ├ protruding|凸
+  │ │ ├ dented|凹
+  │ │ ├ smooth|坦
+  │ │ ├ rugged|崎
+  │ │ ├ square|方
+  │ │ ├ round|圆
+  │ │ ├ queer|怪
+  │ │ ├ horizontal|横
+  │ │ ├ blunt|钝
+  │ │ ├ acute|尖
+  │ │ ├ sharp|利
+  │ │ ├ wrinkled|皱
+  │ │ ├ dot|点
+  │ │ ├ linear|线
+  │ │ ├ surfacial|面
+  │ │ ├ cubic|体
+  │ │ └ angular|角
+  │ ├ brightness|明暗
+  │ │ ├ bright|明
+  │ │ └ dark|暗
+  │ ├ clearness|清浑
+  │ │ ├ clear|清
+  │ │ └ blurred|浑
+  │ ├ prettiness|美丑
+  │ │ ├ beautiful|美
+  │ │ └ ugly|丑
+  │ ├ pattern|样式
+  │ │ ├ modern|髦
+  │ │ └ old|陈
+  │ ├ SmoothFinish|光洁度
+  │ │ ├ delicate|娇
+  │ │ ├ coarse|糙
+  │ │ └ polished|光
+  │ ├ color|颜色  -- RGB(x,y,z)
+  │ │ ├ colored|彩
+  │ │ ├ plain|素
+  │ │ ├ red|红  -- RGB(255,0,0)
+  │ │ ├ yellow|黄  -- RGB(255,255,0)
+  │ │ ├ blue|蓝  -- RGB(0,0,255)
+  │ │ ├ green|绿  -- RGB(0,255,0)
+  │ │ ├ purple|紫  -- RGB(128,64,128)
+  │ │ ├ brown|褐  -- RGB(128,64,64)
+  │ │ ├ white|白  -- RGB(255,255,255)
+  │ │ ├ black|黑  -- RGB(0,0,0)
+  │ │ ├ grey|灰  -- RGB(192,192,192)
+  │ │ ├ RedBrown|赭
+  │ │ ├ BlueGreen|青  -- RGB(128,255,128)
+  │ │ └ colorless|无色
+  │ ├ hue|浓淡
+  │ │ ├ NotLight|浓
+  │ │ └ light|淡
+  │ ├ odor|气味
+  │ │ ├ fragrant|香
+  │ │ └ stinky|臭
+  │ ├ taste|味道
+  │ │ ├ sour|酸
+  │ │ ├ sweet|甜
+  │ │ ├ bitter|苦
+  │ │ ├ peppery|辣
+  │ │ └ salty|咸
+  │ ├ posture|姿势
+  │ ├ scene|景象
+  │ │ ├ exuberant|茂
+  │ │ ├ desolate|荒
+  │ │ ├ threatening|险
+  │ │ └ stately|庄
+  │ ├ cleanness|洁净
+  │ │ ├ spotless|洁
+  │ │ └ dirty|龊
+  │ ├ fatness|胖瘦
+  │ │ ├ fat|胖
+  │ │ └ bony|瘦
+  │ ├ bearing|仪态
+  │ │ ├ thrifty|俭
+  │ │ ├ gracious|雅
+  │ │ └ extravagant|奢
+  │ ├ PhysicState|物理状态
+  │ ├ attire|装束
+  │ ├ style|风格
+  │ ├ demeanor|风度
+  │ └ countenance|表情
+  ├ measurement|量度
+  │ ├ length|长度
+  │ │ ├ long|长
+  │ │ └ short|短
+  │ ├ height|高度
+  │ │ ├ tall|高
+  │ │ └ low|矮
+  │ ├ area|面积
+  │ │ ├ big|大
+  │ │ ├ medium|中
+  │ │ ├ small|小
+  │ │ └ broad|广
+  │ ├ size|尺寸
+  │ │ ├ big|大
+  │ │ ├ medium|中
+  │ │ ├ small|小
+  │ │ └ broad|广
+  │ ├ width|宽度
+  │ │ ├ wide|阔
+  │ │ └ narrow|窄
+  │ ├ depth|深度
+  │ │ ├ deep|深
+  │ │ └ shallow|浅
+  │ ├ thickness|厚度
+  │ │ ├ thick|厚
+  │ │ └ thin|薄
+  │ ├ fineness|粗细
+  │ │ ├ fine|纤
+  │ │ └ widediameter|粗
+  │ ├ slope|坡度
+  │ │ └ steep|陡
+  │ ├ density|密度
+  │ │ ├ dense|密
+  │ │ └ sparse|疏
+  │ ├ tightness|松紧
+  │ │ ├ loose|松
+  │ │ └ tight|紧
+  │ ├ hardness|硬度
+  │ │ ├ hard|硬
+  │ │ ├ soft|软
+  │ │ ├ crisp|脆
+  │ │ ├ tender|嫩
+  │ │ └ tough|韧
+  │ ├ concentration|浓度
+  │ │ ├ watery|稀
+  │ │ └ concentrated|稠
+  │ ├ weight|重量
+  │ │ ├ heavy|重
+  │ │ └ NotHeavy|轻
+  │ ├ SoundVolume|音量
+  │ │ └ loud|响
+  │ ├ distance|距离
+  │ │ ├ far|远
+  │ │ └ near|近
+  │ ├ earliness|迟早
+  │ │ ├ early|早
+  │ │ └ late|迟
+  │ ├ speed|速度
+  │ │ ├ fast|快
+  │ │ └ slow|慢
+  │ ├ duration|久暂
+  │ │ ├ TimeLong|久
+  │ │ └ TimeShort|暂
+  │ ├ dampness|湿度
+  │ │ ├ dried|干
+  │ │ ├ wet|湿
+  │ │ ├ waterless|旱
+  │ │ └ waterlogging|涝
+  │ ├ temperature|温度
+  │ │ ├ cold|冷
+  │ │ ├ hot|热
+  │ │ ├ chilly|凉
+  │ │ └ warm|温
+  │ ├ price|价格
+  │ │ ├ cheap|贱
+  │ │ └ expensive|贵
+  │ ├ stickiness|黏度
+  │ │ └ sticky|黏
+  │ └ angle|角度
+  ├ property|特性
+  │ ├ newness|新旧
+  │ │ ├ new|新
+  │ │ └ used|旧
+  │ ├ age|年龄
+  │ │ ├ aged|老
+  │ │ ├ adult|成
+  │ │ └ young|幼
+  │ ├ trueness|真伪
+  │ │ ├ true|真
+  │ │ └ fake|伪
+  │ ├ GoodBad|好坏
+  │ │ ├ good|好
+  │ │ └ bad|坏
+  │ ├ quality|质量
+  │ │ ├ fertile|沃
+  │ │ ├ barren|瘠
+  │ │ ├ refined|精
+  │ │ ├ crude|陋
+  │ │ ├ average|可
+  │ │ ├ great|伟
+  │ │ ├ negligible|渺
+  │ │ └ durable|牢
+  │ ├ intensity|强度
+  │ │ ├ strong|强
+  │ │ └ weak|弱
+  │ ├ easiness|难易
+  │ │ ├ easy|易
+  │ │ └ difficult|难
+  │ ├ SoundQuality|音质
+  │ ├ content|内容
+  │ │ ├ substantial|实
+  │ │ ├ empty|空
+  │ │ ├ profound|奥
+  │ │ ├ NotProfound|浅易
+  │ │ ├ interesting|趣
+  │ │ ├ boring|乏
+  │ │ ├ detailed|详
+  │ │ ├ simple|简
+  │ │ ├ pure|纯
+  │ │ ├ mixed|杂
+  │ │ ├ accurate|准
+  │ │ ├ neat|齐
+  │ │ ├ disorder|乱
+  │ │ ├ concise|谨
+  │ │ ├ unattached|散
+  │ │ ├ trivial|琐
+  │ │ ├ complicated|繁
+  │ │ └ layered|叠
+  │ ├ correctness|正误
+  │ │ ├ correct|正确
+  │ │ └ wrong|误
+  │ ├ degree|程度
+  │ │ ├ extreme|极
+  │ │ ├ insufficiently|欠
+  │ │ ├ very|很
+  │ │ ├ ish|稍
+  │ │ ├ more|较
+  │ │ ├ most|最
+  │ │ └ over|超
+  │ ├ reputation|名声
+  │ │ ├ glorious|荣
+  │ │ ├ Notwellknown|无名
+  │ │ └ disgraced|辱
+  │ ├ behavior|举止
+  │ │ ├ formal|正式
+  │ │ ├ informal|非正式
+  │ │ ├ dexterous|巧
+  │ │ ├ flexible|活
+  │ │ ├ stiff|呆
+  │ │ ├ lasting|恒
+  │ │ ├ secret|秘
+  │ │ ├ opened|显
+  │ │ ├ hidden|隐
+  │ │ ├ forthright|爽
+  │ │ ├ tactful|婉
+  │ │ ├ gentle|柔
+  │ │ ├ suitable|妥
+  │ │ ├ proper|当
+  │ │ ├ BadTemper|坏脾气
+  │ │ ├ convenient|便
+  │ │ ├ inconvenient|碍
+  │ │ ├ improper|不当
+  │ │ ├ vulgar|俗
+  │ │ ├ hasty|慌
+  │ │ ├ sudden|骤
+  │ │ ├ fluent|畅
+  │ │ ├ nimble|捷
+  │ │ ├ strict|严
+  │ │ ├ lenient|宽
+  │ │ ├ fierce|暴
+  │ │ ├ free|自由
+  │ │ ├ restrained|受限
+  │ │ ├ diligent|勤
+  │ │ ├ lazy|懒
+  │ │ ├ biased|偏
+  │ │ ├ kindhearted|善
+  │ │ ├ sly|狡
+  │ │ ├ stubborn|倔
+  │ │ ├ active|愿
+  │ │ ├ passive|被
+  │ │ ├ modest|谦
+  │ │ ├ arrogant|傲
+  │ │ ├ attentive|细心
+  │ │ ├ careless|苟
+  │ │ ├ cautious|慎
+  │ │ ├ flighty|浮
+  │ │ ├ sincere|诚
+  │ │ ├ rash|莽
+  │ │ ├ indifferent|漠
+  │ │ ├ steady|稳
+  │ │ ├ lascivious|淫
+  │ │ ├ honest|廉
+  │ │ ├ fair|公
+  │ │ ├ greedy|贪
+  │ │ ├ eccentric|僻
+  │ │ ├ optimistic|乐观
+  │ │ ├ pessimistic|悲观
+  │ │ ├ evil|恶
+  │ │ ├ faithful|忠
+  │ │ ├ treacherous|逆
+  │ │ ├ mischievous|淘
+  │ │ ├ continuous|续
+  │ │ └ together|共同
+  │ ├ SocialMode|风气
+  │ ├ value|价值
+  │ │ └ precious|珍
+  │ ├ impression|印象
+  │ ├ effect|效用
+  │ │ ├ useless|劣
+  │ │ └ superior|优
+  │ ├ will|意志
+  │ ├ courage|胆量
+  │ │ ├ brave|勇
+  │ │ └ timid|怯
+  │ ├ wisdom|智慧
+  │ │ ├ wise|智
+  │ │ ├ foolish|愚
+  │ │ ├ clever|灵
+  │ │ └ NotQuick|讷
+  │ ├ ability|能力
+  │ │ ├ able|能
+  │ │ └ unable|庸
+  │ ├ tolerance|气量
+  │ │ ├ generous|慷
+  │ │ └ miser|吝
+  │ ├ habit|习惯
+  │ ├ importance|主次
+  │ │ ├ important|主
+  │ │ ├ secondary|次
+  │ │ ├ main|总
+  │ │ └ branch|支
+  │ ├ necessity|必要
+  │ │ ├ necessary|要
+  │ │ └ redundant|余
+  │ ├ rank|等级
+  │ │ ├ HighRank|高等
+  │ │ ├ LowRank|低等
+  │ │ └ elementary|初
+  │ ├ standard|标准
+  │ │ └ passed|合格
+  │ ├ status|身分
+  │ ├ occupation|职位
+  │ ├ range|幅度
+  │ │ ├ extensive|泛
+  │ │ ├ nonextensive|狭
+  │ │ ├ all|全
+  │ │ └ pieced|片
+  │ ├ frequency|频率
+  │ │ ├ often|经常
+  │ │ ├ rarely|偶尔
+  │ │ ├ again|再
+  │ │ └ regular|定期
+  │ ├ power|势力
+  │ ├ strength|力量
+  │ ├ ProsCons|利弊
+  │ │ ├ pros|益
+  │ │ └ cons|弊
+  │ ├ relatedness|亲疏
+  │ │ ├ intimate|亲
+  │ │ ├ unfamiliar|隙
+  │ │ └ opposed|反
+  │ ├ sex|性别
+  │ │ ├ male|男
+  │ │ └ female|女
+  │ ├ origin|出身
+  │ ├ name|姓名
+  │ ├ number|编号
+  │ ├ performance|性能
+  │ ├ interest|趣味
+  │ └ outlook|前景
+  ├ relationship|关系
+  │ ├ attachment|归属
+  │ │ ├ public|共
+  │ │ └ private|私
+  │ ├ kind|类型
+  │ │ ├ certain|某
+  │ │ ├ other|另
+  │ │ ├ special|特
+  │ │ └ ordinary|普
+  │ ├ source|来源
+  │ │ ├ original|原
+  │ │ ├ foreign|洋
+  │ │ └ artificial|造
+  │ ├ location|位置
+  │ │ ├ internal|内
+  │ │ └ external|外
+  │ ├ direction|方向
+  │ │ ├ east|东
+  │ │ ├ west|西
+  │ │ ├ south|南
+  │ │ └ north|北
+  │ ├ clan|辈分
+  │ ├ divergence|分歧
+  │ ├ boundary|界限
+  │ ├ sequence|次序
+  │ │ ├ InSequence|有序
+  │ │ └ OutOfOrder|无序
+  │ └ contrariness|正反
+  │    ├ positive|正面
+  │    └ negative|反面
+  └ situation|状况
+     ├ circumstances|境况
+     │ ├ urgent|急
+     │ ├ peaceful|宁
+     │ ├ relax|弛
+     │ ├ lonely|孤
+     │ ├ flourishing|兴
+     │ ├ wane|衰
+     │ ├ tranquil|恬
+     │ ├ hardship|艰
+     │ ├ safe|安
+     │ ├ dangerous|危
+     │ ├ happy|福
+     │ ├ miserable|惨
+     │ ├ busy|忙
+     │ └ idle|闲
+     ├ richness|贫富
+     │ ├ rich|富
+     │ └ poor|穷
+     ├ similarity|异同
+     │ ├ alike|似
+     │ └ different|异
+     ├ occasion|场面
+     │ ├ bustling|闹
+     │ ├ crowded|挤
+     │ ├ quiet|静
+     │ ├ stuffy|闷
+     │ └ cosy|惬
+     ├ physique|体格
+     │ ├ unripe|生
+     │ └ ripe|熟
+     ├ wholeness|整缺
+     │ ├ complete|整
+     │ └ incomplete|缺
+     ├ fullness|空满
+     │ └ full|满
+     ├ possibility|可能
+     │ ├ possible|会
+     │ ├ impossible|不会
+     │ └ almost|几乎
+     └ environment|情况

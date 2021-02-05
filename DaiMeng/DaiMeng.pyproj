@@ -1,0 +1,72 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>b26eb9cc-b8de-4ccf-a050-3a7e049ddfeb</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>program\dmMain.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>DaiMeng</Name>
+    <RootNamespace>DaiMeng</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="data\" />
+    <Folder Include="data\log\" />
+    <Folder Include="data\xmlData\" />
+    <Folder Include="program\" />
+    <Folder Include="program\accessData\" />
+    <Folder Include="program\business\" />
+    <Folder Include="program\httpServer\" />
+    <Folder Include="References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\xmlData\表达2.xml" />
+    <Content Include="program\Config.xml" />
+    <Content Include="program\httpServer\Dialog.html" />
+    <Content Include="program\httpServer\Dialog2.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="program\accessData\accessConfig.py" />
+    <Compile Include="program\accessData\accessDB.py" />
+    <Compile Include="program\accessData\accessXml.py" />
+    <Compile Include="program\accessData\writeLog.py" />
+    <Compile Include="program\accessData\__init__.py" />
+    <Compile Include="program\business\bdZhiDaoHuiDa.py" />
+    <Compile Include="program\business\busiMaim.py" />
+    <Compile Include="program\business\expMean.py" />
+    <Compile Include="program\business\getPage.py" />
+    <Compile Include="program\business\get_explanation.py" />
+    <Compile Include="program\business\ltp_in.py" />
+    <Compile Include="program\business\phase_relate.py" />
+    <Compile Include="program\business\phframe_ana.py" />
+    <Compile Include="program\business\sentenceMatch3.py" />
+    <Compile Include="program\business\structure.py" />
+    <Compile Include="program\business\trans_ltp.py" />
+    <Compile Include="program\business\trans_ltp_ZYT.py" />
+    <Compile Include="program\business\__init__.py" />
+    <Compile Include="program\dmMain.py" />
+    <Compile Include="program\httpServer\httpServer.py" />
+    <Compile Include="program\httpServer\__init__.py" />
+    <Compile Include="program\yongTao.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <!--记录语料类XML文件路径及名称。key:标识，不同的文件。path:路径。name:文件名-->
+  <xmlDataSite>
+    <xmlFile key="cilin_syn" path="../data/xmlData/" name="cilin_syn.txt"/>
+    <xmlFile key="表达2" path="../data/xmlData/" name="表达2.xml"/>
+    <xmlFile key="概念.动物" path="../data/xmlData/" name="概念.动物.xml"/>
+    <xmlFile key="概念.人" path="../data/xmlData/" name="概念.人.xml"/>
+    <xmlFile key="概念.属性" path="../data/xmlData/" name="概念.属性.xml"/>
+    <xmlFile key="概念.运动" path="../data/xmlData/" name="概念.运动.xml"/>
+    <xmlFile key="概念.植物" path="../data/xmlData/" name="概念.植物.xml"/>
+    <xmlFile key="库.预备概念" path="../data/xmlData/" name="库.预备概念.xml"/>
+    <xmlFile key="通用经验" path="../data/xmlData/" name="通用经验.xml"/>
+    <xmlFile key="物理.物体.器具" path="../data/xmlData/" name="物理.物体.器具.xml"/>
+    <xmlFile key="语义.段落" path="../data/xmlData/" name="语义.段落.xml"/>
+    <xmlFile key="词林动物1" path="../data/xmlData/" name="词林动物1.txt"/>
+
+  </xmlDataSite>
+  <!--记录日志类文本文件路径及名称。key:标识，日志文件类别。path:路径。name:文件名-->
+  <logSite>
+    <logFile key="allLog" path="data/log/" name="allLog.txt"/>
+  </logSite>
+  <!--记录访问语言云的配置。key:多个语言云的标识。url:url。pwd:接入口令-->
+  <YuYanYun>
+    <con key="ltp_server" Url="http://106.12.85.163:9090/ltp" api_key="" />
+    <con key="YuYanYun" Url="https://api.ltp-cloud.com/analysis/" api_key="F2B1r20680ptCKuZiUbZlBBFdexNHi9NYnDSVaFK" />
+  </YuYanYun>
+  <!--数据库连接-->
+  <ConnectionDB>
+    <add name="ConnDM" server="192.168.15.138" user="sa" password="123asd" database="DaiMeng" />
+  </ConnectionDB>
+  <!--Access数据库文件-->
+  <Access>
+    <AccessFile key="DaiMeng" path="../data/accessDB/" name="DaiMeng.mdb"/>
+  </Access>    
+  <!--本地HTTP服务参数-->
+  <HttpServer>
+    <add key="localHttp" ip="127.0.0.1" port ="8000"/>
+  </HttpServer>
+</config>
